@@ -1,0 +1,33 @@
+{
+    "name": "leboclub/markdown-editor",
+    "description": "Markdown Editor for Laravel",
+    "keywords": [
+        "laravel",
+        "markdown",
+        "editor"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leboclub\\MarkdownEditor\\" : "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "chenhua",
+            "email": "276004561@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leboclub\\MarkdownEditor\\MarkdownEditorServiceProvider"
+            ],
+            "aliases": {
+                "MarkdownEditor": "Leboclub\\MarkdownEditor\\Facades\\MarkdownEditor"
+            }
+        }
+    }
+}
